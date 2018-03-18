@@ -2,7 +2,7 @@ package myCode;
 
 import java.util.concurrent.TimeUnit;
 
-class Phone//  Phone.class
+class Phone // Phone.class
 {
 	public static synchronized void sendSMS() throws Exception
 	{
@@ -89,6 +89,7 @@ public class Lock_8
 			}
 		}, "B").start();		
 		
+
 	}
 }
 
