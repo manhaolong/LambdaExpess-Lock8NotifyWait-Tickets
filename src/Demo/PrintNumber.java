@@ -22,7 +22,7 @@ public class PrintNumber {
 			}
 		},"AA").start();
 		
-		Thread.sleep(100);
+//		Thread.sleep(100);
 		//BB想成抢占字母资源
 		new Thread(()->{
 			try {
