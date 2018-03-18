@@ -109,7 +109,6 @@ public class NotifyWaitDemo
 	public static void main(String[] args)
 	{
 		ShareData sd = new ShareData();
-		
 		new Thread(() -> {
 			for (int i = 1; i <=10; i++) 
 			{
